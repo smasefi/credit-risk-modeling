@@ -14,6 +14,8 @@ This model will help inform approval/denial decisions and support better credit 
 
 ## 📊 Data
 
+Unit of Analysis: Each row represents a loan application and contains all the information about that individual the time of origination. The only value that this doesn't apply to is the loan outcome which is our target variable.
+
 Source: Lending Club Loan Data - https://www.kaggle.com/datasets/wordsforthewise/lending-club/data
 
 Description: Historical loan application and performance data, including borrower demographics, credit history, loan characteristics, and repayment outcomes.
