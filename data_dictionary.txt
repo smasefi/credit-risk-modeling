@@ -1,0 +1,42 @@
+"loan_amnt" - The listed amount of the loan applied for by the borrower. If at some point in time, the credit department reduces the loan amount, then it will be reflected in this value.
+
+"term" - The number of payments on the loan - can be either a value of 36 or 60 (in months)
+
+"int_rate" - interest rate on the loan
+
+"installment" - the monthly payment owed by the borrower if the loan originates
+
+"purpose" - category provided by the borrower as to why the loan was needed
+    
+"emp_length" - Employment length in years. Possible values are between 0 and 10 where 0 means less than one year and 10 means ten or more years.
+
+"home_ownership" - status was given to the data collector as rent, own, mortgage, other
+
+"annual_inc" - The self-reported annual income provided by the borrower during registration.
+
+"verification_status" - Indicates if the co-borrowers' joint income was verified by LC, not verified, or if the income source was verified
+    
+"dti" - A ratio calculated using the borrower’s total monthly debt payments on the total debt obligations, excluding mortgage and the requested LC loan, divided by the borrower’s self-reported monthly income.
+
+"delinq_2yrs" - The number of 30+ days past-due incidences of delinquency in the borrower's credit file for the past 2 years
+
+"inq_last_6mths" - The number of inquiries in past 6 months (excluding auto and mortgage inquiries)
+
+"open_acc" - The number of open credit lines in the borrower's credit file.
+
+"pub_rec" - Number of derogatory public records
+
+"revol_bal" - Total credit revolving balance
+
+"revol_util" - Revolving line utilization rate, or the amount of credit the borrower is using relative to all available revolving credit.
+
+"total_acc" - The total number of credit lines currently in the borrower's credit file
+
+"earliest_cr_line" - The month the borrower's earliest reported credit line was opened
+    
+"grade" - LC assigned loan grade
+
+"sub_grade" - LC assigned loan subgrade
+    
+"loan_status" - current status of the loan
+
